@@ -18,10 +18,20 @@ namespace LL00SingleLinkedList
         static void Main(string[] args)
         {
             MyLinkedList<int> ll = new MyLinkedList<int>();
-            ll.Add(1);
-            ll.Add(2);
-            ll.Add(7);
-            WriteList(ll);
+            ll.Add(10);
+            ll.Add(20);
+            ll.Add(30);
+            ll.Add(69);
+            ll.AddToStart(1);
+            ll.Insert(1, 99);
+            ll.SetItem(2, 35);
+            ll.Remove(35);
+            ll.RemoveAt(3);
+
+            foreach (var l in ll)
+            {
+                Console.WriteLine(l + " ");
+            }
 
             Console.WriteLine("\nPočet položek: " + ll.Count);
             Console.WriteLine(ll.Contains(7));
