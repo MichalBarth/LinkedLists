@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LL00SingleLinkedList", "LL00SingleLinkedList\LL00SingleLinkedList.csproj", "{C7B0F450-4667-4BDA-83FB-472497EF1CD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LL00SingleLinkedList", "LL00SingleLinkedList\LL00SingleLinkedList.csproj", "{C7B0F450-4667-4BDA-83FB-472497EF1CD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LL01BinaryTree", "LL01BinaryTree\LL01BinaryTree.csproj", "{0DE46C16-BC0D-4712-A14D-745D0060F774}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C7B0F450-4667-4BDA-83FB-472497EF1CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7B0F450-4667-4BDA-83FB-472497EF1CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7B0F450-4667-4BDA-83FB-472497EF1CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE46C16-BC0D-4712-A14D-745D0060F774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE46C16-BC0D-4712-A14D-745D0060F774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE46C16-BC0D-4712-A14D-745D0060F774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE46C16-BC0D-4712-A14D-745D0060F774}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
