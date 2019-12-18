@@ -63,5 +63,21 @@ namespace LL01BinaryTree
             }
             return null;
         }
+
+        public int Depth()
+        {
+            return Depth(_root);
+        }
+
+        protected int Depth(TreeNode<T> node)
+        {
+            if (node == null)
+            {
+                return 0;
+            }
+            int a = Depth(node.Left);
+            int b = Depth(node.Right);
+            return a + b + 1;
+        }
     }
 }
